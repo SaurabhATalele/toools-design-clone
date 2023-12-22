@@ -29,3 +29,13 @@
 .options li{
     cursor:pointer;
 }
+
+@media screen and (max-width: 768px){
+    .options{
+        display: none;
+    }
+    .navbar{
+        width: 100vw;
+        justify-content: center;
+    }
+}

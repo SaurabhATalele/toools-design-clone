@@ -12,13 +12,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     width: 150px;
     height: 150px;
     background-image:linear-gradient(rgba(255,255,255,.5),rgba(251,250,255,.5)) ;
     border-radius: 10px;
     box-shadow: 0 15px 30px rgba(0,42,102,.04), inset 1px 1px 1px rgba(255,255,255,.9);
 }
+.tile:hover p, .tile:hover img {
+    opacity: .6;
+}
+
+
 
 .name{
     font-size: 1.8rem;
@@ -26,4 +30,19 @@
     color: rgba(22,13,61,.6);
     text-align: center;
     margin: 1rem 0;
+}
+
+
+@media screen and (max-width: 768px){
+    .categories{
+        grid-template-columns: repeat( 3,1fr);
+        grid-gap: 2vw;
+    }
+    .tile{
+        width: 100px;
+        height: 100px;
+    }
+    .name{
+        font-size: 1.2rem;
+    }
 }

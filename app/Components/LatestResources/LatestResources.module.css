@@ -110,3 +110,24 @@
     box-shadow: 0 15px 30px rgba(0,42,102,.04), inset 1px 1px 1px rgba(255,255,255,.9);
 }
 
+
+@media screen and (max-width:768px){
+    .container{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .cards__container{
+        justify-content: center;
+    }
+    .latest__btn{
+        background-color: #fcfcfc;
+        border:none;
+        outline: none;
+        padding:  2rem;
+        border-radius: 10px;
+        font-size: 1.6rem;
+        align-self: center;
+        box-shadow: 0 15px 30px rgba(0,42,102,.04), inset 1px 1px
+    }
+}

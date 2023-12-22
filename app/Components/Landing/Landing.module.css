@@ -24,3 +24,30 @@
     font-size: 25px;
     opacity: 70%;
 }
+
+@media screen and (max-width: 768px){
+    .landing{
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .left__text{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left__text h1{
+        font-size: 40px;
+    }
+
+    .left__text p{
+        font-size: 20px;
+    }
+
+    .landing img{
+        width: 250px;
+        height: 200px;
+    }
+    
+}
