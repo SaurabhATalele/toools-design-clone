@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://assets-global.website-files.com/5ce10a4c0b5f0b05f522e746/61f9aaf3889ff64e10afad3e_bg-blur-colors-top-light.jpg');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,61 @@
+.newsletter{
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://assets-global.website-files.com/5ce10a4c0b5f0b05f522e746/63f5245df95373834602441a_toools-design-newsletter-keyvisual-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    width: 40%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.content h1{
+    font-size: 5.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.content p{
+    font-size: 2rem;
+    color: rgba(22,13,61,.6);
+    margin-bottom: 1rem;
+}
+
+.content form{
+    position: relative;
+}
+
+.input{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding-left: 1rem;
+    padding: 2rem 1rem ;
+    font-size: 1.8rem;
+    outline: none;
+}
+
+.input:hover{
+    box-shadow: 1px 1px 3px 1px #26c8f981;
+}
+.subscribe{
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    width: 10rem;
+    height: 4rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #26c8f9;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    outline: none;
+}
